@@ -1,0 +1,25 @@
+.ui.card {
+  word-wrap: break-word;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.post-content {
+  height: 100%;
+  overflow: auto;
+  height: 200px;
+  width: 100%;
+}
+
+.post-content::-webkit-scrollbar {
+  display: none;
+}
+
+.extra.content {
+  overflow: hidden;
+  height: 100%;
+}
+
+.modal {
+  word-wrap: break-word;
+}
