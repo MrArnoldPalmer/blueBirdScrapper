@@ -1,7 +1,7 @@
 {
   "name": "blue-bird-scrapper",
   "version": "0.0.0",
-  "description": "Small description for blue-bird-scrapper goes here",
+  "description": "A simple web app that pull finds the # of any tweet",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -38,5 +38,8 @@
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.1"
+  },
+  "dependencies": {
+    "bower": "^1.7.9"
   }
 }
