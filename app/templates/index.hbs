@@ -1,1 +1,18 @@
-{{outlet}}
+<div class="ui four column centered grid">
+  <div class="row">
+    <h1 class="ui center algned header">Twitter Hashtag Search</h1>
+  </div>
+  <div class="row">
+    <form {{action "search" on="submit"}} class="ui input center aligned">
+      {{input type="text" value=hashtagField placeholder="Search hashtags"}}
+      <button class="ui button" {{action "search"}}>Search</button>
+    </form>
+  </div>
+  <div class="ui container">
+    <div class="ui four doubling cards">
+      {{#each model as |tweet|}}
+        {{tweet-post post=post}}
+      {{/each}}
+    </div>
+  </div>
+</div>
